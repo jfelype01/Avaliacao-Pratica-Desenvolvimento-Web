@@ -5,7 +5,7 @@ import mysql from "mysql2/promise"
 export const conexao = mysql.createPool({
     host: 'localhost',
     user: 'root',
-    password: '27122004',
+    password: 'mysqlsenha01!',
     database: 'escola'
 })
 
